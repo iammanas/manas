@@ -62,9 +62,16 @@
             </a>
         </li>
         {{ end }}
+        {{ if .Site.Social.instagram }}
         <li class="pure-menu-item">
             <a href="{{ .Site.Social.instagram }}" title="instagram" class="pure-menu-link">
                 <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        {{ end }}
+        <li class="pure-menu-item">
+            <a href="https://api.whatsapp.com/send?phone=+919439034452&text=Hello Manas" title="@Manas" class="pure-menu-link">
+                <i class="fab fa-whatsapp"></i>
             </a>
         </li>
     </ul>
