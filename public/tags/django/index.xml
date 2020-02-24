@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>django on Manas Ranjan Pati</title>
+    <link>https://example.com/tags/django/</link>
+    <description>Recent content in django on Manas Ranjan Pati</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Django Email Backend</title>
+      <link>https://example.com/posts/django5/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/django5/</guid>
+      <description>Introduction
+In django if we want to set model field</description>
+    </item>
+    
+    <item>
+      <title>Django Generic Relation</title>
+      <link>https://example.com/posts/django2/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/django2/</guid>
+      <description>Introduction
+Hello and welcome. Today we will learn how to comment using django default Generic Relations or Generic Foreignkey.
+In django we all know that to relate any models we can use OneToOne,ManyToOne and ForegnKey relationships. For posting comment to other model we generally used ForeignKey. But today we will learn how to make it possible.
+Above is the basic things we give to a model.py file. For validation we have to use decorators and inbuilt django features.</description>
+    </item>
+    
+    <item>
+      <title>Django Model Creation</title>
+      <link>https://example.com/posts/django1/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/django1/</guid>
+      <description>Introduction
+In this tutorial, we will create the Django models that define the fields and behaviors of the Blog application data that we will be storing. These models map the data from your Django application to the database. It’s what Django uses to generate the database tables via their object relational mapping (ORM) API called &amp;ldquo;models&amp;rdquo;.
+Django models are the base thing of any django project.The main purpose of django models are to save the user data in to any database(sqlite3,MongoDB,Oracle,PostgreSQL etc)</description>
+    </item>
+    
+  </channel>
+</rss>
