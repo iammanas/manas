@@ -27,6 +27,7 @@ pygmentsStyle = "perldoc"
   medium = "https://www.medium.com/@Iam_manas"
   github = "https://github.com/Manasranjanpati"
   linkedin = "https://www.linkedin.com/in/manas-ranjan-pati-0969009a/"
+  instagram = "https://www.instagram.com/manasranjanpati/"
 
 
 # Set unsafe mode to allow markdownify to work with goldmark
