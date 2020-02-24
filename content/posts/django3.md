@@ -13,7 +13,7 @@ categories: [
     "themes",
     "syntax",
 ]
-image: "59.jpg"
+image: "49.jpg"
 ---
 
 

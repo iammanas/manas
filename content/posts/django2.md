@@ -7,7 +7,7 @@ tags: [
     "django",
     "ForeignKey"
 ]
-image: "10.png"
+image: "django.jpeg"
 ---
 
 ---

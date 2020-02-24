@@ -6,7 +6,7 @@ description: "Setting up django mail backend"
 tags: [
     "django",
 ]
-image: ".png"
+image: "49.jpg"
 ---
 
 ----

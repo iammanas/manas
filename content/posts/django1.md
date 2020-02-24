@@ -6,7 +6,7 @@ description: "Simple Django Model Creation"
 tags: [
     "django",
 ]
-image: "10.png"
+image: "django.png"
 ---
 
 

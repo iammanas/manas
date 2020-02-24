@@ -1,42 +1,41 @@
 ---
-author: "Hugo Authors"
-title: "Videos Demo"
+author: "Manas Ranjan Pati"
+title: "Activities"
 date: "2018-12-30"
 description: "Short Codes"
 tags: [
-    "shortcodes",
     "privacy",
 ]
-image: "55.jpg"
+image: "49.jpg"
 ---
 
 Life is beautiful
 ---
 
-## Instagram Simple Shortcode
+## Animal Lover
 
-{{< instagram BGvuInzyFAe hidecaption >}}
-
-<br>
-
----
-
-## YouTube Privacy Enhanced Shortcode
-
-{{< youtube ZJthWmvUzzc >}}
+{{< instagram Bm0l1utFgL0 hidecaption >}}
 
 <br>
 
 ---
 
-## Twitter Simple Shortcode
+## CI/CD using Docker and Gitlab
 
-{{< twitter 1085870671291310081 >}}
+{{< youtube TPn5pL2yTmo >}}
 
 <br>
 
 ---
 
-## Vimeo Simple Shortcode
+## Manas's Daily Thoughts
 
-{{< vimeo 48912912 >}}
+{{< twitter 1217986647846862848 >}}
+
+<br>
+
+---
+
+## 
+
+{{< instagram BHlvVUMhB_q >}}
