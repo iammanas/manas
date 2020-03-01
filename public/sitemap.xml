@@ -3,103 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/tags/django/</loc>
+    <loc>https://manasranjanpati.netlify.com/tags/django/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/django5/</loc>
+    <loc>https://manasranjanpati.netlify.com/posts/django5/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://manasranjanpati.netlify.com/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://manasranjanpati.netlify.com/posts/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://manasranjanpati.netlify.com/tags/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/django2/</loc>
+    <loc>https://manasranjanpati.netlify.com/posts/django2/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/django1/</loc>
+    <loc>https://manasranjanpati.netlify.com/posts/django1/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/foreignkey/</loc>
+    <loc>https://manasranjanpati.netlify.com/tags/foreignkey/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://manasranjanpati.netlify.com/about/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/css/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/django3/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/html/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/syntax/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/themes/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/themes/</loc>
-    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/privacy/</loc>
+    <loc>https://manasranjanpati.netlify.com/posts/django4/</loc>
     <lastmod>2018-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/shortcodes/</loc>
+    <loc>https://manasranjanpati.netlify.com/tags/privacy/</loc>
     <lastmod>2018-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/django4/</loc>
-    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+    <loc>https://manasranjanpati.netlify.com/categories/</loc>
   </url>
   
 </urlset>

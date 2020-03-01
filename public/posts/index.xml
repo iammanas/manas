@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Manas Ranjan Pati</title>
-    <link>https://example.com/posts/</link>
+    <link>https://manasranjanpati.netlify.com/posts/</link>
     <description>Recent content in Posts on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://manasranjanpati.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Django Email Backend</title>
-      <link>https://example.com/posts/django5/</link>
+      <link>https://manasranjanpati.netlify.com/posts/django5/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/django5/</guid>
+      <guid>https://manasranjanpati.netlify.com/posts/django5/</guid>
       <description>Introduction
-In django if we want to set model field</description>
+I am here</description>
     </item>
     
     <item>
       <title>Django Generic Relation</title>
-      <link>https://example.com/posts/django2/</link>
+      <link>https://manasranjanpati.netlify.com/posts/django2/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/django2/</guid>
+      <guid>https://manasranjanpati.netlify.com/posts/django2/</guid>
       <description>Introduction
 Hello and welcome. Today we will learn how to comment using django default Generic Relations or Generic Foreignkey.
 In django we all know that to relate any models we can use OneToOne,ManyToOne and ForegnKey relationships. For posting comment to other model we generally used ForeignKey. But today we will learn how to make it possible.
@@ -35,33 +35,23 @@ Above is the basic things we give to a model.py file. For validation we have to 
     
     <item>
       <title>Django Model Creation</title>
-      <link>https://example.com/posts/django1/</link>
+      <link>https://manasranjanpati.netlify.com/posts/django1/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/django1/</guid>
+      <guid>https://manasranjanpati.netlify.com/posts/django1/</guid>
       <description>Introduction
 In this tutorial, we will create the Django models that define the fields and behaviors of the Blog application data that we will be storing. These models map the data from your Django application to the database. It’s what Django uses to generate the database tables via their object relational mapping (ORM) API called &amp;ldquo;models&amp;rdquo;.
 Django models are the base thing of any django project.The main purpose of django models are to save the user data in to any database(sqlite3,MongoDB,Oracle,PostgreSQL etc)</description>
     </item>
     
     <item>
-      <title>Guide</title>
-      <link>https://example.com/posts/django3/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/posts/django3/</guid>
-      <description>The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
-    </item>
-    
-    <item>
-      <title>Videos Demo</title>
-      <link>https://example.com/posts/django4/</link>
+      <title>Activities</title>
+      <link>https://manasranjanpati.netlify.com/posts/django4/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/django4/</guid>
-      <description>Life is beautiful Instagram Simple Shortcode    View this post on Instagram         A post shared by | KOLOOT DESIGN | (@koloot.design) on Jun 16, 2016 at 11:32pm PDT
-   YouTube Privacy Enhanced Shortcode    Twitter Simple Shortcode “In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.</description>
+      <guid>https://manasranjanpati.netlify.com/posts/django4/</guid>
+      <description>Life is beautiful Animal Lover    View this post on Instagram         A post shared by Manas Ranjan Pati (@manasranjanpati) on Aug 23, 2018 at 5:40am PDT
+   CI/CD using Docker and Gitlab    Manas&#39;s Daily Thoughts I believe as a human entity we always wanted to be independent in every way. Above all is the financial independent.</description>
     </item>
     
   </channel>

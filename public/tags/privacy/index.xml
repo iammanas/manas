@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>privacy on Manas Ranjan Pati</title>
-    <link>https://example.com/tags/privacy/</link>
+    <link>https://manasranjanpati.netlify.com/tags/privacy/</link>
     <description>Recent content in privacy on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://manasranjanpati.netlify.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Videos Demo</title>
-      <link>https://example.com/posts/django4/</link>
+      <title>Activities</title>
+      <link>https://manasranjanpati.netlify.com/posts/django4/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/django4/</guid>
-      <description>Life is beautiful Instagram Simple Shortcode    View this post on Instagram         A post shared by | KOLOOT DESIGN | (@koloot.design) on Jun 16, 2016 at 11:32pm PDT
-   YouTube Privacy Enhanced Shortcode    Twitter Simple Shortcode “In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.</description>
+      <guid>https://manasranjanpati.netlify.com/posts/django4/</guid>
+      <description>Life is beautiful Animal Lover    View this post on Instagram         A post shared by Manas Ranjan Pati (@manasranjanpati) on Aug 23, 2018 at 5:40am PDT
+   CI/CD using Docker and Gitlab    Manas&#39;s Daily Thoughts I believe as a human entity we always wanted to be independent in every way. Above all is the financial independent.</description>
     </item>
     
   </channel>

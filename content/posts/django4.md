@@ -2,11 +2,11 @@
 author: "Manas Ranjan Pati"
 title: "Activities"
 date: "2018-12-30"
-description: "Short Codes"
+description: "My times"
 tags: [
     "privacy",
 ]
-image: "49.jpg"
+image: "yoga.jpg"
 ---
 
 Life is beautiful
