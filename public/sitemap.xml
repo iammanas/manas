@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://manasranjanpati.netlify.com/</loc>
-    <lastmod>2020-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://manasranjanpati.netlify.com/posts/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
   </url>
@@ -44,6 +39,11 @@
   
   <url>
     <loc>https://manasranjanpati.netlify.com/about/</loc>
+    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://manasranjanpati.netlify.com/</loc>
     <lastmod>2019-12-31T00:00:00+00:00</lastmod>
   </url>
   

@@ -7,7 +7,6 @@
             <img src="/img/Manas.jpg" alt="{{ .Site.Params.Author }}" class="pure-img" />
             <p><em>{{ .Site.Params.Tagline }}</em></p>
         </div>
-
         <h3>Latest Articles</h3>
         <div class="pure-menu pure-menu-open">
             <ul class="pure-menu-list">
@@ -20,7 +19,6 @@
                 {{ end }}
             </ul>
         </div>
-
         <h3>Categories</h3>
         <div style="text-align:center">
             {{ range $.Site.Taxonomies.tags.ByCount }}
