@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Manas Ranjan Pati</title>
+    <link>https://manasranjanpati.netlify.com/tags/linux/</link>
+    <description>Recent content in Linux on Manas Ranjan Pati</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://manasranjanpati.netlify.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Linuxbrew in Linux </title>
+      <link>https://manasranjanpati.netlify.com/posts/linuxbrew/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://manasranjanpati.netlify.com/posts/linuxbrew/</guid>
+      <description>Check Git Version Check your git version first by using the following command.
+$ git --version git version 2.9.5 Manually install Linuxbrew to your preferred location. Switch to the directory where you want Linuxbrew installed and execute these commands
+git clone https://github.com/Homebrew/brew .linuxbrew/Homebrew mkdir .linuxbrew/bin ln -s ../Homebrew/bin/brew .linuxbrew/bin eval $(.linuxbrew/bin/brew shellenv) These commands are modified from the Alternative Installation section of the Homebrew on Linux docs in order to be location-agnostic.</description>
+    </item>
+    
+  </channel>
+</rss>

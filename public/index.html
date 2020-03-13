@@ -115,6 +115,45 @@
     
     <div class="pad">
 <div class="date">
+    <time pubdate="2020-02-15">February 15, 2020</time>
+    <span class="author">by Manas Ranjan Pati</span>
+</div>
+
+<article>
+    <h1><a href="https://manasranjanpati.netlify.com/posts/linuxbrew/">Installing Linuxbrew in Linux </a></h1>
+    <div class="tags">
+        
+        
+        <a href="/tags/linux" class="pure-button">Linux</a>
+        
+    </div>
+    <hr>
+<h2 id="check-git-version">Check Git Version</h2>
+<p>Check your git version first by using the following command.</p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git --version
+git version 2.9.5
+</code></pre></div><h2 id="manually-install-linuxbrew-to-your-preferred-location">Manually install Linuxbrew to your preferred location.</h2>
+<p>Switch to the directory where you want Linuxbrew installed and execute these commands</p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/Homebrew/brew .linuxbrew/Homebrew
+mkdir .linuxbrew/bin
+ln -s ../Homebrew/bin/brew .linuxbrew/bin
+<span style="color:#658b00">eval</span> <span style="color:#8b008b;font-weight:bold">$(</span>.linuxbrew/bin/brew shellenv<span style="color:#8b008b;font-weight:bold">)</span>
+</code></pre></div><p>These commands are modified from the <a href="https://docs.brew.sh/Homebrew-on-Linux#alternative-installation">Alternative Installation</a> section of the Homebrew on Linux docs in order to be location-agnostic. I installed to a special /extra/$USER location that has more space than my home directory on the system in question, but $HOME is a perfectly valid choice too.</p>
+<p>Now, do which brew and you should see something like this:</p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ which brew
+/manas/home/.linuxbrew/bin/brew
+</code></pre></div><p><em>Now some magic thing will happen after following below command</em></p>
+<p>Use the full path to brew from the last step to determine the correct line to add to your shell rc file. In my case, it is:</p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#658b00">eval</span> <span style="color:#8b008b;font-weight:bold">$(</span>/manas/home/.linuxbrew/bin/brew shellenv<span style="color:#8b008b;font-weight:bold">)</span>
+</code></pre></div><p>Now, when I open a new session, I will have the brew command available. That&rsquo;s not the only trick though. We also need to add this line:</p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#658b00">export</span> <span style="color:#00688b">HOMEBREW_NO_ENV_FILTERING</span>=<span style="color:#b452cd">1</span>
+</code></pre></div><p>This allows Homebrew to see ~/.local/bin/ as a valid place to find git. Otherwise, it will stubbornly insist on using the ancient CentOS version, which will cause things to fail in interesting ways.</p>
+
+</article></div>
+    <div class="pad"></div>
+    
+    <div class="pad">
+<div class="date">
     <time pubdate="2020-02-12">February 12, 2020</time>
     <span class="author">by Manas Ranjan Pati</span>
 </div>
@@ -474,6 +513,12 @@ Running migrations:
             <ul class="pure-menu-list">
                 
                 <li class="pure-menu-item">
+                    <a href="https://manasranjanpati.netlify.com/posts/linuxbrew/" class="pure-menu-link">Installing Linuxbrew in Linux <br>
+                        <small>Installing Linuxbrew in Linux</small>
+                    </a>
+                </li>
+                
+                <li class="pure-menu-item">
                     <a href="https://manasranjanpati.netlify.com/posts/django5/" class="pure-menu-link">Django Email Backend<br>
                         <small>Setting up django mail backend</small>
                     </a>
@@ -505,6 +550,8 @@ Running migrations:
             
             <button href="/tags/django" class="pure-button pure-button-primary"> django
                 <small>(3)</small></button>
+            
+            
             
             
             
