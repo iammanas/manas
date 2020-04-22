@@ -38,7 +38,7 @@ Now, do which brew and you should see something like this:
 
 ```bash 
 $ which brew
-/manas/home/.linuxbrew/bin/brew
+/home/manas/.linuxbrew/bin/brew
 ```
 
 
@@ -47,7 +47,7 @@ $ which brew
 Use the full path to brew from the last step to determine the correct line to add to your shell rc file. In my case, it is:
 
 ```bash
-eval $(/manas/home/.linuxbrew/bin/brew shellenv)
+eval $(/home/manas/.linuxbrew/bin/brew shellenv)
 ```
 
 Now, when I open a new session, I will have the brew command available. That's not the only trick though. We also need to add this line:
