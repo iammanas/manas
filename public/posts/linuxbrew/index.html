@@ -138,10 +138,10 @@ ln -s ../Homebrew/bin/brew .linuxbrew/bin
 </code></pre></div><p>These commands are modified from the <a href="https://docs.brew.sh/Homebrew-on-Linux#alternative-installation">Alternative Installation</a> section of the Homebrew on Linux docs in order to be location-agnostic. I installed to a special /extra/$USER location that has more space than my home directory on the system in question, but $HOME is a perfectly valid choice too.</p>
 <p>Now, do which brew and you should see something like this:</p>
 <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ which brew
-/manas/home/.linuxbrew/bin/brew
+/home/manas/.linuxbrew/bin/brew
 </code></pre></div><p><em>Now some magic thing will happen after following below command</em></p>
 <p>Use the full path to brew from the last step to determine the correct line to add to your shell rc file. In my case, it is:</p>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#658b00">eval</span> <span style="color:#8b008b;font-weight:bold">$(</span>/manas/home/.linuxbrew/bin/brew shellenv<span style="color:#8b008b;font-weight:bold">)</span>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#658b00">eval</span> <span style="color:#8b008b;font-weight:bold">$(</span>/home/manas/.linuxbrew/bin/brew shellenv<span style="color:#8b008b;font-weight:bold">)</span>
 </code></pre></div><p>Now, when I open a new session, I will have the brew command available. That&rsquo;s not the only trick though. We also need to add this line:</p>
 <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#658b00">export</span> <span style="color:#00688b">HOMEBREW_NO_ENV_FILTERING</span>=<span style="color:#b452cd">1</span>
 </code></pre></div><p>This allows Homebrew to see ~/.local/bin/ as a valid place to find git. Otherwise, it will stubbornly insist on using the ancient CentOS version, which will cause things to fail in interesting ways.</p>
@@ -163,6 +163,12 @@ ln -s ../Homebrew/bin/brew .linuxbrew/bin
         <h3>Latest Articles</h3>
         <div class="pure-menu pure-menu-open">
             <ul class="pure-menu-list">
+                
+                <li class="pure-menu-item">
+                    <a href="https://manasranjanpati.netlify.com/posts/krishna_poetry/" class="pure-menu-link">A poetry for Krsna<br>
+                        <small>Krishna Poetry</small>
+                    </a>
+                </li>
                 
                 <li class="pure-menu-item">
                     <a href="https://manasranjanpati.netlify.com/posts/linuxbrew/" class="pure-menu-link">Installing Linuxbrew in Linux <br>
@@ -202,6 +208,8 @@ ln -s ../Homebrew/bin/brew .linuxbrew/bin
             
             <button href="/tags/django" class="pure-button pure-button-primary"> django
                 <small>(3)</small></button>
+            
+            
             
             
             

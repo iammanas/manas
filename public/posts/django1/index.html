@@ -214,7 +214,7 @@ manas<span style="color:#707a7c">@dell</span>:~<span style="color:#a61717;backgr
     <span style="color:#cd5555">&#39;django.contrib.staticfiles&#39;</span>,
     <span style="color:#cd5555">&#39;blog.apps.BlogConfig&#39;</span>,
 ]
-</code></pre></div><p>Its time to create a model for our blog so that it will store the data in to the database when we do operations. So now open models.py file which will be in our app that is <code>blogapp</code></p>
+</code></pre></div><p>Its time to create a model for our blog so that it will store the data in to the database when we do operations. So now open models.py file which will be in our app that is <strong>blogapp</strong>.</p>
 <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8b008b;font-weight:bold">from</span> <span style="color:#008b45;text-decoration:underline">django.conf</span> <span style="color:#8b008b;font-weight:bold">import</span> settings
 <span style="color:#8b008b;font-weight:bold">from</span> <span style="color:#008b45;text-decoration:underline">django.db</span> <span style="color:#8b008b;font-weight:bold">import</span> models
 <span style="color:#8b008b;font-weight:bold">from</span> <span style="color:#008b45;text-decoration:underline">django</span>-utils <span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">timezone</span>
@@ -240,21 +240,21 @@ manas<span style="color:#707a7c">@dell</span>:~/ManasBlog<span style="color:#a61
 (venv) manas<span style="color:#707a7c">@dell</span>:~/ManasBlog/blog<span style="color:#a61717;background-color:#e3d2d2">$</span> python manage.py migrate
 </code></pre></div><p>Dont worry i will tell you the reason of using makemigrations and migrate</p>
 <ol>
-<li>makemigrations will collect the data from models.py and it will store in migrations folder by creating 0001_initial.py (Note: For each change in models file it will create a migration file)\</li>
+<li>makemigrations will collect the data from models.py and it will store in migrations folder by creating 0001_initial.py (Note: For each change in models file it will create a migration file).</li>
 </ol>
 <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">(venv) manas<span style="color:#707a7c">@dell</span>:~/ManasBlog/blog<span style="color:#a61717;background-color:#e3d2d2">$</span> python manage.py makemigrations
 Migrations <span style="color:#8b008b;font-weight:bold">for</span> <span style="color:#cd5555">&#39;blog&#39;</span>:
   blog/migrations/<span style="color:#b452cd">0001</span>_initial.py:
   - Create model Post
 </code></pre></div><ol start="2">
-<li>migrate will take the data from 0001_initial.py folder and it will create a table in our database.</li>
+<li>Migrate will take the data from 0001_initial.py folder and it will create a table in our database.</li>
 </ol>
 <div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">(venv) manas<span style="color:#707a7c">@dell</span>:~/ManasBlog/blog<span style="color:#a61717;background-color:#e3d2d2">$</span> python manage.py makemigrations
 Operations to perform:
   Apply <span style="color:#658b00">all</span> migrations: blogapp
 Running migrations:
   Applying blog.<span style="color:#b452cd">0001</span>_initial... OK
-</code></pre></div><p>Chakachak! Our post created and the data is stored in database. I used default django database i.e sqlite3 but you can use other database like mysql,PostgreSQL,MongoDB.</p>
+</code></pre></div><p>Our post created and the data is stored in database. I used default django database i.e sqlite3 but you can use other database like mysql,PostgreSQL,MongoDB.</p>
 <p>Plese ping me to my mail <a href="mailto:manasranjanpati94@gmail.com">manasranjanpati94@gmail.com</a> for any queries and inspire me to do more. Thank you  !</p>
 
 </article>
@@ -274,6 +274,12 @@ Running migrations:
         <h3>Latest Articles</h3>
         <div class="pure-menu pure-menu-open">
             <ul class="pure-menu-list">
+                
+                <li class="pure-menu-item">
+                    <a href="https://manasranjanpati.netlify.com/posts/krishna_poetry/" class="pure-menu-link">A poetry for Krsna<br>
+                        <small>Krishna Poetry</small>
+                    </a>
+                </li>
                 
                 <li class="pure-menu-item">
                     <a href="https://manasranjanpati.netlify.com/posts/linuxbrew/" class="pure-menu-link">Installing Linuxbrew in Linux <br>
@@ -313,6 +319,8 @@ Running migrations:
             
             <button href="/tags/django" class="pure-button pure-button-primary"> django
                 <small>(3)</small></button>
+            
+            
             
             
             

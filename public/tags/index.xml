@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://manasranjanpati.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>poetry</title>
+      <link>https://manasranjanpati.netlify.com/tags/poetry/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://manasranjanpati.netlify.com/tags/poetry/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Linux</title>
