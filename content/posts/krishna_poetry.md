@@ -11,7 +11,7 @@ image: "krishna.jpg"
 ----------------------
 
 
-<img src="/img/feature/krishna.jpg"/>
+<img src="/img/feature/Krishna.jpg"/>
 
 ***I bow to your Lotus Feet***
 
