@@ -11,7 +11,7 @@ image: "krishna.jpg"
 ----------------------
 
 
-<img src="/img/feature/Krishna.jpg"/>
+<img src="https://i0.wp.com/livingwiseproject.com/wp-content/uploads/2017/05/krishna.jpg?fit=816%2C612&ssl=1"/>
 
 ***I bow to your Lotus Feet***
 
