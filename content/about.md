@@ -19,6 +19,8 @@ Hello visitor!! Thanks for visiting. This is Manas here and i am working as a de
 
 * Html & Bootstrap 4
 
+## Cloud
+
 * Aws(EC2)
 
 * Docker
@@ -27,15 +29,15 @@ Hello visitor!! Thanks for visiting. This is Manas here and i am working as a de
 
 ## Projects worked
 
-* Leave Management System
-
 * CRM (Company Relational Management)
+
+* Leave Management System
 
 * Peeljobs (Online Job Portal Site)
 
-* Personal Projects
+* Refactored AI
 
-* Static Webpages
+* Web-Scraping
 
 
 
