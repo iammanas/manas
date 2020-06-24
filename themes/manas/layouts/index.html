@@ -11,12 +11,12 @@
         {{ if $paginator.HasNext }}
         <a class="pure-button pagination-item older" href="{{ $paginator.Next.URL }}">Older</a>
         {{ else }}
-        <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">Older</span>
         {{ end }}
         {{ if $paginator.HasPrev }}
         <a class="pure-button pagination-item newer" href="{{ $paginator.Prev.URL }}">Newer</a>
         {{ else }}
-        <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">Newer</span>
         {{ end }}
     </div>
 </div>
