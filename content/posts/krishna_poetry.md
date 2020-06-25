@@ -2,11 +2,11 @@
 author: ""
 title: "A poetry for Krsna"
 date: "2020-06-18"
-description: "Krishna Poetry"
+description: ""
 tags: [
     "poetry",
 ]
-image: "krishna.jpg"
+image: "Krishna.jpg"
 
 ----------------------
 

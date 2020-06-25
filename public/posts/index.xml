@@ -40,16 +40,6 @@ git clone https://github.com/Homebrew/brew .linuxbrew/Homebrew mkdir .linuxbrew/
     </item>
     
     <item>
-      <title>Django Email Backend</title>
-      <link>https://manasranjanpati.netlify.com/posts/django5/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://manasranjanpati.netlify.com/posts/django5/</guid>
-      <description>Introduction
-Hello this is first test blog</description>
-    </item>
-    
-    <item>
       <title>Django Generic Relation</title>
       <link>https://manasranjanpati.netlify.com/posts/django2/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>

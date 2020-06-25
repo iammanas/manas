@@ -2,7 +2,7 @@
 author: "Manas Ranjan Pati"
 title: "Activities"
 date: "2018-12-30"
-description: "My times"
+description: ""
 tags: [
     "privacy",
 ]

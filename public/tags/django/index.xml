@@ -6,20 +6,10 @@
     <description>Recent content in django on Manas Ranjan Pati</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://manasranjanpati.netlify.com/tags/django/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Django Email Backend</title>
-      <link>https://manasranjanpati.netlify.com/posts/django5/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://manasranjanpati.netlify.com/posts/django5/</guid>
-      <description>Introduction
-Hello this is first test blog</description>
-    </item>
     
     <item>
       <title>Django Generic Relation</title>

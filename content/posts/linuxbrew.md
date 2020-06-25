@@ -2,11 +2,11 @@
 author: "Manas"
 title: "Installing Linuxbrew in Linux "
 date: "2020-02-15"
-description: "Installing Linuxbrew in Linux"
+description: ""
 tags: [
     "Linux",
 ]
-image: ""
+image: "linux.jpg"
 ---
 
 ---
